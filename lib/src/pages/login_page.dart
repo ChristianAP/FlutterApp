@@ -14,13 +14,14 @@ class _LoginPageState extends State<LoginPage> {
         child: Scaffold(
       appBar: AppBar(
         title: const Text('  APP FLUTTER'),
+        backgroundColor: Colors.pink.shade600,
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           // Add your onPressed code here!
         },
-        child: const Icon(Icons.navigation),
-        backgroundColor: Colors.green,
+        child: const Icon(Icons.add_to_photos_sharp),
+        backgroundColor: Colors.pink.shade600,
       ),
       body: Center(
         child: Column(
@@ -91,7 +92,7 @@ Widget buttonSesion() {
         borderRadius: BorderRadius.circular(10),
       ),
       elevation: 10.0,
-      color: Colors.redAccent,
+      color: Colors.pink.shade600,
       onPressed: () {},
     );
   });
